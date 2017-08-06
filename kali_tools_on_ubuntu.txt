@@ -1,0 +1,19 @@
+sudo apt-get install git  
+
+git clone https://github.com/LionSec/katoolin.git
+
+sudo cp katoolin/katoolin.py /usr/bin/katoolin 
+
+cd /usr/bin/katoolin 
+
+sudo chmod +x /usr/bin/katoolin  
+
+sudo katoolin
+
+Opção 1 para adicionar o repositório
+
+Update
+
+Opção 2 para escolher ferramentas
+
+Opção 0 para instalar todas
