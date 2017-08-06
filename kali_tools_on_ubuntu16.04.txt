@@ -1,19 +1,21 @@
-sudo apt-get install git  
+Instalação do git
+    sudo apt-get install git
 
-git clone https://github.com/LionSec/katoolin.git
+Download do respositório
+    git clone https://github.com/LionSec/katoolin.git
 
-sudo cp katoolin/katoolin.py /usr/bin/katoolin 
+Envio da pasta para outro diretório e fazendo o executável
+    sudo cp katoolin/katoolin.py /usr/bin/katoolin 
+    cd /usr/bin/katoolin
+    sudo chmod +x /usr/bin/katoolin  
 
-cd /usr/bin/katoolin 
+Rodando o app
+    sudo katoolin
 
-sudo chmod +x /usr/bin/katoolin  
+Selecionar:
+    Opção 1 para adicionar o repositório
+    Update
+    Opção 2 para escolher ferramentas
+    Opção 0 para instalar todas
 
-sudo katoolin
-
-Opção 1 para adicionar o repositório
-
-Update
-
-Opção 2 para escolher ferramentas
-
-Opção 0 para instalar todas
+Tempo médio de instalaço: 1h30min
