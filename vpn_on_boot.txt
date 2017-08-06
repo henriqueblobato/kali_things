@@ -1,3 +1,6 @@
+#
+# Gerando um script python para conectar automaticamente na rede VPN utilizando o dns do google
+#
 
 1. sudo nano vpn_connect.py
 
