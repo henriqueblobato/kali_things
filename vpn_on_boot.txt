@@ -1,0 +1,21 @@
+
+1. sudo nano vpn_connect.py
+
+2. Colar o codigo abaixo no arquivo:
+    import urllib2
+    import os
+
+    connected = False
+    while not connected:
+        try:
+            urllib2.urlopen('http://216.58.192.142', timeout=1)
+            os.system('sudo expressvpn connect')
+            connected = True
+        except urllib2.URLError as err:
+            pass
+            
+            
+3. sudo crontab -e
+
+4. Colocar o codigo abaixo no fim do arquivo:
+    @reboot sudo python <deretório>/vpn_connect.py &
