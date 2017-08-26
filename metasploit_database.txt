@@ -1,0 +1,11 @@
+Ligando PostgreSQL no metasploit
+
+    sudo apt-get update && sudo apt-get upgrade
+
+    service postgresql restart
+
+    msfdb init
+
+Entrar no msfconsole:
+
+    db_status
