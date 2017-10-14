@@ -9,3 +9,19 @@ Ligando PostgreSQL no metasploit
 Entrar no msfconsole:
 
     db_status
+    
+    
+    
+MODO2
+    sudo apt-get update && sudo apt-get upgrade
+    service postgresql restart
+
+Entrar no msfconsole:
+    msfdb_init
+    
+Verificar onde o arquivo do db foi criado
+Com a mensagem "Creating configuration file in /usr/share/metasploit-framework/config/database.yml"
+
+    db_connect -y /usr/share/metasploit-framework/config/database.yml
+    db_status
+
